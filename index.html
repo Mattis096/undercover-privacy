@@ -1,66 +1,110 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <title>Undercover – Politique de confidentialité</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Nom du Jeu – Jeu de société mobile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <main class="container">
-    <h1>Politique de confidentialité – Undercover</h1>
 
-    <p class="updated">Dernière mise à jour : février 2026</p>
+<nav class="topbar">
+    <div class="nav-container">
 
-    <section>
-      <h2>1. Collecte des données</h2>
-      <p>
-        L'application <strong>Undercover</strong> ne collecte, ne stocke et ne partage
-        aucune donnée personnelle des utilisateurs.
-      </p>
-    </section>
+        <div class="nav-logo">
+            <img src="logo.png" alt="Logo">
+            <span>Nom du Jeu</span>
+        </div>
 
-    <section>
-      <h2>2. Données utilisateur</h2>
-      <p>
-        Aucune création de compte n'est requise. L'application ne demande aucune
-        information personnelle telle que le nom, l'adresse e-mail ou le numéro de
-        téléphone.
-      </p>
-    </section>
+        <ul class="nav-links">
+            <li><a href="regles.html">Règles</a></li>
+            <li><a href="equipe.html">Notre équipe</a></li>
+            <li><a href="conditions.html">Conditions d’utilisation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+                <a href="https://play.google.com/store" target="_blank" class="nav-btn">
+                    Télécharger
+                </a>
+            </li>
+        </ul>
 
-    <section>
-      <h2>3. Partage avec des tiers</h2>
-      <p>
-        Undercover n'utilise aucun service tiers de publicité, d'analyse ou de suivi.
-        Aucune donnée n'est transmise à des tiers.
-      </p>
-    </section>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+    </div>
+</nav>
 
-    <section>
-      <h2>4. Public cible</h2>
-      <p>
-        Cette application est destinée à un public adulte (+18) en raison de la
-        présence de langage et de thèmes suggestifs.
-      </p>
-    </section>
+<header class="hero reveal">
+    <img src="logo.png" alt="Logo du jeu" class="logo">
+    <h1>Undercover, un jeu de déduction pour 3-20 joueurs</h1>
+    <p>Plongez dans un jeu captivant où plus personne ne sait qui est qui. Chaque joueur reçoit un mot secret : à vous de décrypter les indices, retrouver vos alliés et démasquer les imposteurs avant qu’il ne soit trop tard.
+        <br><br>Le jeu idéal pour mettre l’ambiance lors de vos apéros, dîners ou soirées festives. Rires, suspense et rebondissements garantis, en famille comme entre amis !</p>
+    <a href="https://play.google.com/store" target="_blank" class="btn pulse">
+        Télécharger sur le Play Store
+    </a>
+</header>
 
-    <section>
-      <h2>5. Modifications</h2>
-      <p>
-        Cette politique de confidentialité peut être mise à jour si les fonctionnalités
-        de l'application évoluent. Toute modification sera publiée sur cette page.
-      </p>
-    </section>
+<section class="section reveal" id="regles">
+    <h2>Les règles du jeu</h2>
+    <p class="center">
+        Chaque joueur reçoit un rôle secret...
+    </p>
+</section>
 
-    <section>
-      <h2>6. Contact</h2>
-      <p>
-        Pour toute question concernant cette politique de confidentialité, vous pouvez
-        nous contacter à l'adresse suivante :
-      </p>
-      <p class="contact">📧 contact.undercover.app@gmail.com</p>
-    </section>
-  </main>
+
+<section class="section reveal" id="roles">
+    <h2>Les rôles</h2>
+
+    <div class="roles">
+        <div class="role reveal">
+            <img src="images/role-stratege.png" alt="Rôle Stratège" class="role-img">
+            <h3>Les Civils</h3>
+            <p>
+                Analyse la situation et influence subtilement les décisions du groupe.
+            </p>
+        </div>
+
+        <div class="role reveal">
+            <img src="images/role-stratege.png" alt="Rôle Stratège" class="role-img">
+            <h3>L'Undercover</h3>
+            <p>
+                Cache son identité et tente de faire échouer les plans sans être découvert.
+            </p>
+        </div>
+
+        <div class="role reveal">
+            <img src="images/role-stratege.png" alt="Rôle Stratège" class="role-img">
+            <h3>Mr. White</h3>
+            <p>
+                Protège l’équilibre du jeu et aide l’équipe à rester sur la bonne voie.
+            </p>
+        </div>
+    </div>
+     <div class="center">
+        <a href="regles.html" class="btn">
+            Règles détaillées
+        </a>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-download reveal">
+        <h3>Prêt à jouer ?</h3>
+        <a href="https://play.google.com/store" target="_blank" class="btn">
+            Télécharger l’application
+        </a>
+    </div>
+
+    <nav class="footer-links">
+        <a href="equipe.html">Notre équipe</a>
+        <a href="confidentialite.html">Privacy Policy</a>
+        <a href="conditions.html">Conditions d'utilisations</a>
+        <a href="contact.html">Contactez-nous</a>
+    </nav>
+
+    <p class="copyright">
+        © 2026 Undercover. Tous droits réservés.
+    </p>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
